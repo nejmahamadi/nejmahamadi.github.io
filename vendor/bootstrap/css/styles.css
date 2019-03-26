@@ -1012,7 +1012,8 @@ input:required:invalid {
     background: #5095ff;
     border: none;
     outline: none;
-    margin: 2vmax;
+    margin: 0vmax;
+    padding: 8px;
 }
 
 button:hover small {
@@ -1602,7 +1603,6 @@ button::-moz-focus-inner {
     background: #000;
 }
 
-/* Main image in popup */
 
 img.mfp-img {
     width: auto;
@@ -1615,7 +1615,7 @@ img.mfp-img {
     margin: 0 auto;
 }
 
-/* The shadow behind the image */
+/* Le shadow derrière l'image */
 
 .mfp-figure {
     line-height: 0;
@@ -1737,7 +1737,7 @@ img.mfp-img {
     }
 
     h2 {
-        /*background-color: red;*/
+        
     }
 
     #descriptionProjet {
